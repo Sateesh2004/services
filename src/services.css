@@ -1,0 +1,44 @@
+.services-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .services-container h1 {
+    color: #282c34;
+    margin-bottom: 40px;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service-card {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .service-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white; /* Darker shade for the title */
+    font-weight: bolder;
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    color: gainsboro; /* Lighter shade for the description */
+    font-weight: bolder;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    background-color: #555;
+  }
+  
